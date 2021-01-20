@@ -2,9 +2,27 @@
   font-size: 12px;
 }
 
+@media screen and (min-width: 576px) {
+  .title {
+    font-size: 24px;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .title {
     font-size: 32px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .title {
+    font-size: 42px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .title {
+    font-size: 50px;
   }
 }
 
@@ -66,6 +84,28 @@ body {
   font-family: "Mulish", sans-serif;
 }
 
+.container {
+  max-width: 540px;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+
 .main-btn {
   padding: 16px 40px;
   background-color: #ec1f46;
@@ -89,7 +129,6 @@ body {
 button {
   cursor: pointer;
   background: none;
-  border: none;
 }
 
 .page-nav {
@@ -97,12 +136,12 @@ button {
   display: -ms-flexbox;
   display: flex;
   text-align: center;
-  font-size: 18px;
+  font-size: 14px;
 }
 
 .main-title {
-  font-size: 72px;
-  line-height: 1.2;
+  font-size: 24px;
+  line-height: 1.25;
   color: #ec1f46;
   background-color: #0a223d;
 }
