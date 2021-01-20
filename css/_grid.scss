@@ -3,7 +3,10 @@
 	@include media-breakpoint-up(sm){
 		max-width: map-get($container-widths, sm);
 	}
-}
 	@include media-breakpoint-up(md){
 		max-width: map-get($container-widths, md);
 	}
+	@include media-breakpoint-up(lg){
+		max-width: map-get($container-widths, lg);
+	}
+}
