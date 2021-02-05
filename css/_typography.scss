@@ -1,9 +1,41 @@
 .main-title{
-  font-size: 24px;
-  line-height: 1.25;
-  color: $primary-color;
-  background-color: $secondary-color;
+  margin-bottom: -20px;
 }
-
+.main-title__block__head{
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+  color: $grey-color;
+  padding-right: 14px;
+}
+.main-tab__title{
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: #333;
+  padding-bottom: 15px;
+}
+.subtitle{
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: #333;
+  padding-bottom:30px;
+}
+.icon-star{
+	color: transparent;  
+	background: $yellow-color;
+	background-clip: text;
+	-webkit-background-clip: text;  
+	font-size: 8px;
+	padding-right: 4px;
+}
+.star-flex{
+	display: flex;
+	flex-direction: row;
+	justify-content: left;
+}
 // всё что касается стилизации текста и типографики
 
