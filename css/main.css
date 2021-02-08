@@ -3252,6 +3252,14 @@ button:focus {
   width: 350px;
   height: 210px;
   border-radius: 10px;
+  border: none;
+}
+
+.main-photo-img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 @media screen and (min-width: 576px) {
@@ -3306,6 +3314,27 @@ button:focus {
   }
   .box-option {
     margin-top: 0;
+  }
+  .main-photo-img {
+    height: 445px;
+    width: 540px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .main-photo-img {
+    height: 100%;
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .box-option {
+    margin-bottom: 130px;
   }
 }
 
@@ -3781,6 +3810,12 @@ button:focus {
   }
 }
 
+@media screen and (min-width: 1440px) {
+  .package {
+    margin-left: -10px;
+  }
+}
+
 .what-people {
   background: #f5fafe;
 }
@@ -3974,6 +4009,7 @@ button:focus {
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
+  border-radius: 4px 0 0 4px;
 }
 
 .newsletter-adress__email:focus {
@@ -3984,6 +4020,7 @@ button:focus {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  border-radius: 4px;
 }
 
 @media screen and (min-width: 576px) {
@@ -4427,6 +4464,8 @@ button:focus {
 @media screen and (min-width: 768px) {
   .footer-link {
     padding-bottom: 15px;
+    padding-right: 44px;
+    padding-left: 0;
   }
   .footer-list {
     padding-top: 40px;

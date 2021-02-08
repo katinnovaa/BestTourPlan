@@ -158,8 +158,13 @@ background: $light-color;
 	width: 350px;
 	height: 210px;
 	border-radius: 10px;
+	border:none;
 }
-
+.main-photo-img{
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
 @media screen and (min-width: 576px) {
 	.way{
 		padding-bottom: 33px;
@@ -192,8 +197,23 @@ background: $light-color;
 	}
 	.box-option{
 		margin-top: 0;
+	}	
+	.main-photo-img{
+		height: 445px;
+    width: 540px;
+    object-fit: cover;
 	}
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1200px){
+	.main-photo-img{
+		height: 100%;
+    width: 100%;
+    object-fit: cover;
+	}
+}
+@media screen and (min-width: 1440px) {
+	.box-option{
+		margin-bottom: 130px;
+	}
 
 }
